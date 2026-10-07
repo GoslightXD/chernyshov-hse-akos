@@ -1,0 +1,3 @@
+cannibals
+*.o
+/cannibals.log
