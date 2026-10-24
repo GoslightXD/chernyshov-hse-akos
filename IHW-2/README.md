@@ -12,10 +12,6 @@
 make                 # обе программы
 make tsan            # то же с ThreadSanitizer
 ```
-или через CMake:
-```
-cmake -S . -B build && cmake --build build
-```
 
 ## Запуск
 ```
