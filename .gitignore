@@ -1,0 +1,15 @@
+# IDE и сборка
+.idea/
+cmake-build-*/
+build/
+*.o
+
+# бинарники
+cannibals
+cannibals_sem
+cannibals_cond
+*_tsan
+
+# журналы и вывод тестов
+cannibals.log
+tests/out/
