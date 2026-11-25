@@ -1,0 +1,18 @@
+# IDE и сборка
+.idea/
+.vscode/
+cmake-build-*/
+build/
+*.o
+a.out
+
+# бинарники всех заданий (cannibals, cannibals_sem, cannibals_fork_named, cannibals_server и так далее)
+cannibals
+cannibals_*
+*_tsan
+
+# журналы и вывод тестов
+cannibals.log
+nohup.out
+tests/out/
+tests/mqcheck
